@@ -1,0 +1,23 @@
+/* Combine with the existing CSS */
+
+/* Existing CSS */
+body {
+  padding-top: 56px;
+}
+
+.ar-button {
+  display: none;
+  width: 40px;
+  height: 30px;
+  float: right;
+  right: 5px;
+}
+
+/* New CSS for Hover Effect */
+.card {
+  transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale the card slightly when hovered */
+}
